@@ -1,0 +1,170 @@
+/*      Color SCheme
+   dark purple: #4B3869;
+   light purple: #664E88;
+   dark blue: #63B4B8;
+   light blue: #A9E4D7;
+*/
+
+/*body-wide*/
+a {
+   color: #63B4B8; 
+}
+
+body {
+   font-family: 'EB Garamond', serif;
+   text-align: center;
+}
+
+h1 {
+   color: #A9E4D7;
+   font-family: 'Playfair Display', serif;
+   font-size: 3rem;
+}
+
+h2 {
+   color: #A9E4D7;
+   font-size: 2.25rem;
+   font-family: 'Corinthia', cursive;
+}
+
+.title-p {
+   font-size: 2rem;
+   font-family: 'Playfair Display', serif;
+}
+
+/********************* Landing (and navbar) *****************************/
+#landing-page {
+   background-color: #4B3869;
+   padding-top: 320px;
+   padding-bottom: 200px;
+}
+
+.luna-background {
+   position: absolute;
+   top: 575px;
+   width: 256px;
+   transform: rotate(90deg);
+   
+}
+
+@media (max-width: 620px) {
+   .luna-background {
+      right: 10px;
+   }
+}
+
+.luna-brand {
+   font-family: 'Playfair Display', serif;
+}
+
+.luna-drop {
+   color: #4B3869;
+}
+
+.luna-drop:hover {
+   color: #4B3869;
+}
+
+.luna-embellish {
+   position: absolute;
+   top: 15%;
+   left: 10%;
+   width: 25%;
+   opacity: 95%;
+}
+
+@media (min-width: 750px) {
+   .luna-embellish {
+      width: 187.25px;
+   }
+}
+
+.luna-navbar {
+   background-color: #4B3869;
+   z-index: 1;
+}
+
+.luna-sub-navbar {
+   background-color: #A9E4D7;
+}
+
+
+/********************* About  *****************************/
+#about {
+   background-color: white;
+   color: #4B3869;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   position: relative
+}
+
+.luna-pic {
+   background-color: #A9E4D7;
+   border-radius: 100%;
+   height: 90%;
+   margin: 20px;
+   padding:3%;
+}
+
+/********************* Designs *****************************/
+#designs {
+   background-color:  #664E88;
+   color: #A9E4D7;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.luna-button:hover {
+   background-color: #664E88;
+}
+
+.luna-page-card {
+  box-shadow: 0 4px 8px 0 #4B3869;
+  /*box-shadow: 10px 10px 5px #4B3869;*/
+  margin-bottom: 50px; 
+   width: 18rem; 
+}
+
+.luna-sample-title {
+   color: #664E88;
+}
+
+/********************* Contact *****************************/
+#contact {
+   color: #4B3869;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.action-btn:hover {
+   border: solid 2px; 
+   padding: 3px 15px;
+}
+
+.call-to-write {
+   font-family: 'Corinthia', cursive;
+   font-size: 1.75rem;
+   padding-top: 50px;
+}
+
+/********************* Footer *****************************/
+#footer {
+   background-color: #664E88;
+   color: #A9E4D7;
+   padding-bottom: 50px;
+   padding-top: 50px;
+}
+
+.social-icon-link {
+   color: #A9E4D7;
+}
+
+.social-icon:hover {
+   color: #63B4B8;
+}
+
+.social-luna {
+   width: 10px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
