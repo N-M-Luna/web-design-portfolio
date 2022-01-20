@@ -7,10 +7,8 @@
       <meta charset="utf-8">  
        <meta name="description" content="Web Designer Portfolio. (HTML, CSS, and Bootstrap code sample)">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
       
-      
-      <title> N. M. Luna | Sample </title>
+      <title>  </title>
       
       <!-- Font awesome -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
@@ -35,23 +33,24 @@
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark luna-navbar">
          <div class="container-fluid">
             
+            <!-- The "brand name" is the web designer's name) -->
             <a class="navbar-brand luna-brand" href="#">N. M. Luna</a>
             
-    
+            <!-- Hamburger icon (when the screen is too small -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    
+               <span class="navbar-toggler-icon"></span>
             </button>
             
-    
+            <!-- Collapsable content (links to the rest of the page) -->
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-      
                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
+                  
+                  <!-- About Section -->
                   <li class="nav-item">
                      <a class="nav-link" href="#about">About me</a>
                   </li>
         
+                  <!-- Designs Section -->
                   <li class="nav-item dropdown luna-navbar">
                      <a class="nav-link dropdown-toggle" href="#designs" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> My designs </a>
                      <ul class="dropdown-menu luna-sub-navbar" aria-labelledby="navbarDropdown">
@@ -63,14 +62,15 @@
                      </ul>
                   </li>
                   
+                  <!-- Contact Section -->
                   <li class="nav-item">
                      <a class="nav-link" href="#contact">Contact</a>
                   </li>
                
                </ul> <!-- end collapsable -->
     
-            </div>
-         </div>
+            </div> 
+         </div> <!-- end container -->
       </nav>
       
       <!------------------Landing page--------------------------->
@@ -83,7 +83,7 @@
          
          <img src="images/planet.png" class="luna-background" alt="planet-earth-img">
          
-      </div>
+      </div> <!-- end landing page -->
       
       
       <!------------------About me--------------------------->
@@ -102,8 +102,8 @@
                </div>
                
             </div><!--end row-->
-         </div>
-      </div>
+         </div><!-- end container -->
+      </div> <!--end about section -->
       
       
       <!------------------My designs--------------------------->
@@ -122,6 +122,7 @@
              <!-- Carousel slides (called carousel-items) -->
              <div class="carousel-inner">
                  
+                <!-- Slide 1: Web developer portfolio -->
                 <div class="carousel-item active">
                    <div class="card mx-auto luna-page-card">
                       <img src="images/screenshot-web-design.png" class="card-img-top" alt="screenshot-web-design">
@@ -133,6 +134,7 @@
                    </div>
                  </div> <!--end slide 1-->
                  
+                <!-- Slide 2: BnB web page -->
                  <div class="carousel-item">
                     <div class="card mx-auto luna-page-card">
                       <img src="images/screenshot-hotel-page.png" class="card-img-top" alt="screenshot-hotel-page">
@@ -143,6 +145,7 @@
                    </div>
                  </div> <!--end slide 2-->
                 
+                <!-- Slide 3: App Mockup page -->
                  <div class="carousel-item">
                     <div class="card mx-auto luna-page-card">
                       <img src="images/screenshot-yarn-app.png" class="card-img-top" alt="screenshot-yarn-app">
@@ -168,28 +171,37 @@
             </div>
           
           <p> See <a href="#">the complete gallery</a>.</p>
-      </div>
+          
+      </div> <!-- end designs section -->
       
       <!------------------Contact me--------------------------->
+      
        <div class="container-fluid" id="contact">
+          
+          <!--Prompts to contact the web designer -->
            <p class="title-p">Contact me</p>
           <p> I'm available for freelance work. </p>
           <p class="call-to-write"> Send me an email. </p>
+          
+          <!-- mailto link -->
           <p><a href="#"><i class="far fa-paper-plane action-btn"> </i> </a></p>
       </div>
       
       <!------------------Footer--------------------------->
        <div class="container-fluid" id="footer">
           
-          
-          
+          <!-- social icons (links) -->
           <a href="" class="social-icon-link"><i class="fab fa-github-square social-luna"></i></a>
           <a href="" class="social-icon-link"><i class="fab fa-twitter-square social-luna"></i></a>
           <a href="" class="social-icon-link"><i class="fab fa-linkedin social-luna"></i></a>
+          
+          <!-- Copyright -->
           <p>© 2021 N. M. Luna </p>
+          
+          <!-- Credits/Attributions -->
           <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
           
-      </div>
+      </div> <!-- end footer -->
       
       
       <!--JS required for bootstrap-->
